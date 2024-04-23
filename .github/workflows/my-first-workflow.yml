@@ -7,3 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Bon die NOS 👋"
+      - uses: actions/checkout@v4
