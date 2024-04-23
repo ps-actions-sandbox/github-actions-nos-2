@@ -1,0 +1,9 @@
+name: My first Workflow
+
+on: [workflow_dispatch]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Bon die NOS"
