@@ -6,5 +6,6 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Bon die NOS 👋"
+      - run: echo "Bom dia NOS 👋"
       - uses: actions/checkout@v4
+      - run: ls
