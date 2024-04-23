@@ -1,6 +1,10 @@
 name: My first Workflow
 
-on: [workflow_dispatch]
+on: 
+  workflow_dispatch:
+  push:
+    branches: 
+      - main  
 
 jobs:
   hello:
@@ -9,3 +13,4 @@ jobs:
       - run: echo "Bom dia NOS 👋"
       - uses: actions/checkout@v4
       - run: ls
+      - run: echo "On Push 👋"
